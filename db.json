@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Hammad",
+      "age": 30,
+      "gender": "male",
+      "father": {
+        "name": "Asif",
+        "age": 20
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ali",
+      "age": 32
+    }
+  ]
+}

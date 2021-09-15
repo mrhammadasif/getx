@@ -1,0 +1,21 @@
+{
+  "data-class": {
+    "prefix": "data-class",
+    "body": [
+      // "import 'package:freezed_annotation/freezed_annotation.dart';",
+      // "",
+      // "part '${1:Type}.freezed.dart';",
+      // "part '${1:Type}.g.dart';",
+      // "",
+      "@freezed",
+      "class ${1:Type} with _$${1:Type} {",
+      "  factory ${1:Type}({",
+      "    @JsonKey(name: \"_id\") String? id,",
+      "    // Yours keys here ",
+      "  }) = _${1:Type};",
+      "  factory ${1:Type}.fromJson(Map<String, dynamic> json) => _$${1:Type}FromJson(json);",
+      "}"
+    ],
+    "description": ""
+  }
+}
